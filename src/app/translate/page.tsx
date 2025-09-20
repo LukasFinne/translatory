@@ -1,7 +1,7 @@
 'use server'
-import PageContent from "@/app/translate/components/PageContent";
+import TranslateForm from "@/app/translate/components/TranslateForm";
 
 
 export default async function Page() {
-    return <PageContent/>
+    return <TranslateForm/>
 }

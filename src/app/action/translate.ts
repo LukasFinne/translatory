@@ -1,22 +1,11 @@
 "use server";
 
 import { createWorker } from "tesseract.js";
-import * as deepl from "deepl-node";
-export type FormState =
-    | {
-    original?: string;
-    translation?: string;
-    message?: string;
-}
-    | undefined;
 
-export async function translate(prevState: FormState, formData: FormData) {
+
+export async function translate(imageToTranslate: File) {
     const worker = await createWorker(["eng", "chi_tra"]);
 
-    const imageToTranslate = formData.get("image") as File;
-    if (!imageToTranslate) {
-        return { message: "Not file uploaded" };
-    }
 /*
     const translator = new deepl.Translator(process.env.DEEPL_API_KEY as string);
 */
