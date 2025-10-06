@@ -14,7 +14,7 @@
     "deepl-node": "^1.19.1",
     "motion": "^12.23.18",
     "next": "15.5.3",
-    "react": "19.1.1",
+    "react": "19.2.0",
     "react-hook-form": "^7.63.0",
     "tesseract.js": "^6.0.1",
     "react-dom": "19.1.1",
