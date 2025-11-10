@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",
-    "daisyui": "^5.3.10",
+    "daisyui": "^5.4.7",
     "deepl-node": "^1.20.0",
     "motion": "^12.23.24",
     "next": "16.0.1",
