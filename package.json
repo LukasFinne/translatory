@@ -15,7 +15,7 @@
     "motion": "^12.23.25",
     "next": "16.0.7",
     "react": "19.2.1",
-    "react-hook-form": "^7.67.0",
+    "react-hook-form": "^7.68.0",
     "tesseract.js": "^6.0.1",
     "react-dom": "19.2.1",
     "zod": "^4.1.13"
