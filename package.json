@@ -12,7 +12,7 @@
     "@hookform/resolvers": "^5.2.2",
     "daisyui": "^5.5.14",
     "deepl-node": "^1.22.0",
-    "motion": "^12.23.25",
+    "motion": "^12.23.26",
     "next": "16.0.10",
     "react": "19.2.1",
     "react-hook-form": "^7.68.0",
